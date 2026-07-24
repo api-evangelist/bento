@@ -1,0 +1,38 @@
+# Bento (Bento for Business)
+
+> RETIRED API PROVIDER. Bento Technologies, Inc. (dba Bento for Business) was a small-business fintech offering card-based payment and expense management — virtual and physical employee and utility cards, per-card spend controls, real-time spend tracking, and accounting integrations. It was acquired by U.S. Bank on 2021-08-31 and its card program was fully discontinued on 2024-06-25. There is no live API. Do not attempt to integrate.
+
+## Status
+
+- Company status: acquired by U.S. Bank (U.S. Bancorp), closed 2021-08-31
+- API status: retired, effective 2024-06-25
+- api.bentoforbusiness.com — does not resolve (NXDOMAIN)
+- apidocs.bentoforbusiness.com — does not resolve (NXDOMAIN)
+- bentoforbusiness.com — redirects to U.S. Bank spend management
+- No status page, no developer portal, no SDKs, no public source repositories
+
+## Historical API surface (for reference only — not callable)
+
+- Base URL: https://api.bentoforbusiness.com (offline)
+- Documentation: https://apidocs.bentoforbusiness.com/ (offline)
+- Authentication: per-account Access Key + Secret Key, provisioned manually via api-support@bentoforbusiness.com
+- Capabilities: issue employee and utility virtual cards; retrieve card numbers; activate cards and customize billing addresses; read card transactions
+- Events: outbound webhooks for completed and declined card transactions
+
+## Successor
+
+- U.S. Bank spend management: https://www.usbank.com/business-banking/business-credit-cards/spend-management.html
+
+## Artifacts in this profile
+
+- Lifecycle and retirement record: lifecycle/bento-lifecycle.yml
+- Domain security probe: security/bento-domain-security.yml
+- Well-known discovery probe: well-known/bento-well-known.yml
+- Profile index: https://raw.githubusercontent.com/api-evangelist/bento/refs/heads/main/apis.yml
+
+## Sources
+
+- U.S. Bank acquisition announcement: https://www.usbank.com/about-us-bank/company-blog/article-library/us-bank-to-acquire-small-business-payments-software-company-Bento-Technologies.html
+- Acquisition record: https://www.crunchbase.com/acquisition/u-s-bancorp-acquires-bento--18b1cabf
+- Card program wind-down (reloads off 2024-04-30, all services off 2024-06-25): https://www.pexcard.com/blog/bento-for-business-closing-a-smooth-transition-to-pex-ahead/
+- Investor profile (Anthemis): https://www.anthemis.com/portfolio/bento/

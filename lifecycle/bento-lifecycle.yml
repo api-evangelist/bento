@@ -1,0 +1,88 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.usbank.com/about-us-bank/company-blog/article-library/us-bank-to-acquire-small-business-payments-software-company-Bento-Technologies.html
+summary: >-
+  Bento Technologies (Bento for Business) is a retired API provider. The company was
+  acquired by U.S. Bank in August 2021 and its card program — and with it the public
+  developer surface — was fully discontinued in June 2024. No live API, developer
+  portal, status page, or published deprecation policy remains.
+
+status: retired
+
+company_lifecycle:
+  - date: '2015-02'
+    event: seed
+    detail: $2.5M seed round led by Anthemis Group; Blumberg Capital, LionBird and
+      Pivot Investment Partners participating.
+    source: https://www.anthemis.com/portfolio/bento/
+  - date: '2021-08-11'
+    event: acquisition-announced
+    detail: U.S. Bank (U.S. Bancorp) signs agreement to acquire Bento Technologies,
+      a small-business payments software company.
+    source: https://www.businesswire.com/news/home/20210812005586/en/U.S.-Bank-to-Acquire-Small-Business-Payments-Software-Company-Bento-Technologies
+  - date: '2021-08-31'
+    event: acquisition-closed
+    detail: Acquisition closed; Bento folded into U.S. Bank small-business spend
+      management alongside Elavon and talech.
+    source: https://www.crunchbase.com/acquisition/u-s-bancorp-acquires-bento--18b1cabf
+  - date: '2024-04-30'
+    event: partial-shutdown
+    detail: Ability to reload funds to Bento cards was switched off.
+    source: https://www.pexcard.com/blog/bento-for-business-closing-a-smooth-transition-to-pex-ahead/
+  - date: '2024-06-25'
+    event: sunset
+    detail: All services in connection with the Bento card program were discontinued;
+      customers directed to alternative spend-management providers.
+    source: https://www.pexcard.com/blog/bento-for-business-closing-a-smooth-transition-to-pex-ahead/
+
+api_lifecycle:
+  status: retired
+  historical:
+    name: Bento for Business API
+    documentation: https://apidocs.bentoforbusiness.com/
+    base_url: https://api.bentoforbusiness.com
+    authentication: Per-account Access Key + Secret Key, provisioned on request via
+      api-support@bentoforbusiness.com (not self-service).
+    surface: Employee and utility virtual card issuance, card number retrieval, card
+      activation and billing-address customization, card transaction reads, and
+      outbound webhooks for completed and declined card transactions.
+    webhooks: true
+  retirement:
+    effective: '2024-06-25'
+    reason: Card program discontinued following the U.S. Bank acquisition.
+
+versioning:
+  scheme: unknown
+  note: No versioning policy was recoverable; the documentation host is offline.
+
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: Bento published no deprecation policy and no RFC 8594 Sunset/Deprecation
+    header contract that is recoverable. The 2024 wind-down was communicated to
+    account holders directly, not via a public policy page. No `Deprecation`
+    pointer is emitted because there is no provider-published policy.
+
+sla:
+  url: null
+
+status_page: null
+status_page_note: No status page found. status.bentoforbusiness.com does not resolve
+  in DNS. No `StatusPage` pointer is emitted.
+
+dns_evidence:
+  probed: '2026-07-20'
+  resolves:
+    - host: bentoforbusiness.com
+      result: 200, redirects to https://www.usbank.com/business-banking/business-credit-cards/spend-management.html
+    - host: www.bentoforbusiness.com
+      result: 200, redirects to U.S. Bank (CloudFront)
+  does_not_resolve:
+    - apidocs.bentoforbusiness.com
+    - api.bentoforbusiness.com
+    - developer.bentoforbusiness.com
+    - status.bentoforbusiness.com
+
+successor:
+  organization: U.S. Bank
+  url: https://www.usbank.com/business-banking/business-credit-cards/spend-management.html

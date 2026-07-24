@@ -1,0 +1,38 @@
+generated: '2026-07-20'
+method: searched
+source: live probe of /.well-known/ paths
+host: https://bentoforbusiness.com
+note: >-
+  No .well-known documents are published. bentoforbusiness.com serves a redirect to
+  U.S. Bank for every path, so /.well-known/* returns the U.S. Bank marketing page
+  (HTTP 200, text/html) rather than a discovery document — recorded below as
+  soft-404. The former API and documentation hosts (api.bentoforbusiness.com,
+  apidocs.bentoforbusiness.com) no longer resolve in DNS, so they could not be
+  probed. No `WellKnown` or `SecurityTxt` pointer is emitted in apis.yml because no
+  real document exists.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  result: soft-404 (text/html redirect page, not RFC 9116)
+  file: null
+- path: /.well-known/openid-configuration
+  status: 200
+  result: soft-404 (text/html redirect page)
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  result: soft-404 (text/html redirect page)
+  file: null
+- path: /.well-known/api-catalog
+  status: 200
+  result: soft-404 (text/html redirect page)
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 200
+  result: soft-404 (text/html redirect page)
+  file: null
+unreachable_hosts:
+- host: api.bentoforbusiness.com
+  reason: NXDOMAIN
+- host: apidocs.bentoforbusiness.com
+  reason: NXDOMAIN

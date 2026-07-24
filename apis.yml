@@ -1,7 +1,37 @@
 aid: bento
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bento.png
 name: Bento
-description: Bento is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Bento (Bento Technologies, Inc., dba Bento for Business) was a Chicago-
+  and San Francisco-based small-business fintech that provided card-based payment and
+  expense management for small and mid-size businesses: virtual and physical employee
+  and utility cards, per-card spend controls and category restrictions, real-time spend
+  tracking, and accounting integrations. Bento published a public REST API at api.bentoforbusiness.com
+  (documented at apidocs.bentoforbusiness.com) for issuing employee and utility virtual
+  cards, retrieving card numbers, activating and customizing billing addresses, and
+  reading card transactions, plus outbound webhooks for card transaction completed
+  and declined events; API access was granted per account via an Access Key and Secret
+  Key issued by api-support@bentoforbusiness.com. Bento raised a $2.5M seed round led
+  by Anthemis Group in 2015, with Blumberg Capital, LionBird, Pivot Investment Partners,
+  Edison Partners and Espresso Capital also investing. U.S. Bank agreed to acquire Bento
+  Technologies on August 11, 2021 and closed the acquisition on August 31, 2021, folding
+  the product into U.S. Bank''s small-business spend management offering. The Bento card
+  program was then wound down: card reloads stopped April 30, 2024 and all card program
+  services were discontinued June 25, 2024, with customers directed to alternative
+  providers. The developer surface is retired — apidocs.bentoforbusiness.com and
+  api.bentoforbusiness.com no longer resolve in DNS, and bentoforbusiness.com now
+  redirects to U.S. Bank. This profile is retained as a historical record of a former
+  API provider; there is no live API to consume.'
 url: https://raw.githubusercontent.com/api-evangelist/bento/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +39,43 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: U.S. Bank (U.S. Bancorp)
+x-acquired-date: '2021-08-31'
+x-api-status: retired
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Payments
+- Spend Management
+- Expense Management
+- Corporate Cards
+- Virtual Cards
+- Small Business
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://bentoforbusiness.com
+- type: Acquisition
+  url: https://www.usbank.com/about-us-bank/company-blog/article-library/us-bank-to-acquire-small-business-payments-software-company-Bento-Technologies.html
+- type: Investor
+  url: https://www.anthemis.com/portfolio/bento/
+- type: Lifecycle
+  url: lifecycle/bento-lifecycle.yml
+- type: DomainSecurity
+  url: security/bento-domain-security.yml
+- type: LLMsTxt
+  url: llms/bento-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
