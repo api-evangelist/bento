@@ -61,7 +61,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Spend Management
@@ -81,6 +81,7 @@ tags_raw:
 - Virtual Cards
 - Small Business
 - Acquired
+- Financial-Services
 apis: []
 common:
 - type: Website
