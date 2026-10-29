@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bento is a company surfaced as a portfolio company of anthemis and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: anthemis
+Bento (Bento Technologies, Inc., dba Bento for Business) was a Chicago- and San Francisco-based small-business fintech that provided card-based payment and expense management for small and mid-size businesses: virtual and physical employee and utility cards, per-card spend controls and category restrictions, real-time spend tracking, and accounting integrations. Bento published a public REST API at api.bentoforbusiness.com (documented at apidocs.bentoforbusiness.com) for issuing employee and utility virtual cards, retrieving card numbers, activating and customizing billing addresses, and reading card transactions, plus outbound webhooks for card transaction completed and declined events; API access was granted per account via an Access Key and Secret Key issued by api-support@bentoforbusiness.com. Bento raised a $2.5M seed round led by Anthemis Group in 2015, with Blumberg Capital, LionBird, Pivot Investment Partners, Edison Partners and Espresso Capital also investing. U.S. Bank agreed to acquire Bento Technologies on August 11, 2021 and closed the acquisition on August 31, 2021, folding the product into U.S. Bank's small-business spend management offering. The Bento card program was then wound down: card reloads stopped April 30, 2024 and all card program services were discontinued June 25, 2024, with customers directed to alternative providers. The developer surface is retired — apidocs.bentoforbusiness.com and api.bentoforbusiness.com no longer resolve in DNS, and bentoforbusiness.com now redirects to U.S. Bank. This profile is retained as a historical record of a former API provider; there is no live API to consume.
+
+**Areas:** Company · Financial Services · Fintech · Payments · Spend Management · Expense Management · Corporate Cards · Virtual Cards · Small Business · Acquired
+
+## Bento on APIs.io (historical record)
+
+Everything profiled for Bento is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bento/](https://apis.io/providers/bento/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bento Domain Security](https://apis.io/security/bento/bento-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bentoforbusiness.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bento: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bento/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
